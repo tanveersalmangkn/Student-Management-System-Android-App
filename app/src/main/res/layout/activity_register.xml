@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Form"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/adminName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Admin Name"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:paddingLeft="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/registerPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/confirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/registerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:inputType="number"
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Register"
+            android:padding="25dp"
+            />
+
+        <Button
+            android:id="@+id/backLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Login"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
